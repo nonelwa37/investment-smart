@@ -1,0 +1,124 @@
+html, body{
+  margin:0 auto;
+  scroll-behavior: smooth;
+}
+.top {
+  display: inline-grid;
+  align-items: center;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto;
+  grid-column-gap: 30px;
+  padding: 10px;
+  background: #09071c;
+  color:white;
+  width:100%;
+}
+.menuitem ul {
+  list-style: none;
+  text-align: center;
+}
+.menuitem ul li {
+  display: inline;
+  margin-top: -63px;
+  padding: 10px;
+
+}
+.menuitem ul li a{
+  text-decoration:none;
+  color:black;
+}
+
+.intro{
+background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("/images/last.jpeg");
+background-size:cover;
+background-repeat: no-repeat;
+background-position:center;
+min-height:400px;
+text-align: center;
+padding-top:150px;
+color:white;
+}
+.intro p{
+  font-size:20px;
+}
+.grid-container p{
+  color:#CDCDCD;
+}
+.intro h1{
+  font-size:50px;
+}
+.logo{
+  padding: 10px 25px;
+}
+button{
+  font-size:20px;
+  padding: 15px;
+  width:200px;
+  border:2px solid #CE9510;
+  background:#CE9510;
+  color:white;
+}
+.grid-container{
+  display: grid;
+  grid-column-gap: 20px;
+  grid-template-columns:auto auto auto;
+  padding:10px;
+  justify-content:10px;
+}
+.grid-item{
+  border: 1px solid #CDCDCD;
+  padding:20px;
+  font-size:20px;
+  text-align:center;
+  width: 250px;
+}
+hr{
+  border:0;
+  width:50px;
+  border-top:1px solid #CE9510;
+}
+
+.services h2{
+
+text-align: center;
+  font-size: 40px;
+}
+.gridcontainer {
+  display: grid;
+  grid-template-columns: auto auto;
+    grid-column-gap: 20px;
+    justify-content:
+    
+}
+.Mission{
+  background:#F2F3F8;
+  /* padding:20px 20px 20px 250px; */
+  width: 100%;
+
+}
+
+.Benefits{
+background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("../images/comp.jpeg");
+background-repeat: no-repeat;
+color:white;
+padding:20px;
+
+
+}
+#benefits-list {
+  list-style: none;
+}
+#benefitbutton{
+  width:30%;
+
+}
+h1{
+  font-size:20px;
+
+}
+.clients{
+
+background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("../images/comp.jpeg")
+background-repeat:no-repeat;
+
+}
